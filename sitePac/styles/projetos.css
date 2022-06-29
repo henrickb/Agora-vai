@@ -1,0 +1,166 @@
+*{/*Seletor universal do site*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.voltar{/*Class do input do cabeçario*/
+    position: relative;
+    margin-top: 30px;
+    margin-left: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: #0B1B2E;
+    padding: 10px 30px 10px 30px;
+}
+
+.item-1{/*Bloco responsável pela imagem de fundo do carousel*/
+    background-color: white;
+    padding-bottom: 500px;
+}
+
+.img-1{/*Imagem um do carousel*/
+    position: absolute;
+    left: 715px;
+    top: 90px;
+    height: 300px;
+}
+
+.carousel-title{/*Textos do carousel*/
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    font-weight: 700;
+}
+
+.item-2{/*Bloco da segunda imagem do carousel*/
+    background-color: white;
+    padding-bottom: 500px;
+}
+
+.img-2{/*Imagem dois do carousel*/
+    position: absolute;
+    left: 610px;
+    top: 110px;
+    height: 300px;
+}
+
+.item-3{/*Bloco da terveira imagem do carousel*/
+    background-color: white;
+    padding-bottom: 500px;
+}
+
+.img-3{/*Imagem três do carousel*/
+    position: absolute;
+    left: 606px;
+    top: 110px;
+    height: 300px;
+}
+
+.carousel-control-next{/*Botão da direita do carousel*/
+    margin-top: 20%;
+    margin-bottom: 19%;
+}
+
+.carousel-control-prev{/*Botão da esquerda do carousel*/
+    margin-top: 20%;
+    margin-bottom: 19%;
+}
+
+.carousel-control-next{/*Botão da direita do carousel*/
+    border: 30px solid #1A2129;
+    border-radius: 30px;
+    opacity: 1;
+    width: 4%;
+    margin-right: 50px;
+    margin-bottom: 350px;
+}
+
+.carousel-control-prev{/*Botão da esquerda do carousel*/
+    border: 30px solid #1A2129;
+    border-radius: 30px;
+    opacity: 1;
+    width: 4%;
+    margin-left: 50px;
+    margin-bottom: 350px;
+}
+
+.prev-icon{/*Imagem da flecha da esquerda do carousel*/
+    height: 40px;
+    transform: rotate(180deg);
+    position: relative;
+}
+
+.next-icon{/*Imagem da flecha da direita do carousel */
+    height: 40px;
+    position: relative;
+}
+
+.sec2{/*Segunda seção da página*/
+    background-color: #1A2129;
+}
+
+.sec2 h1{/*Título da segunda seção da página*/
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.sec2 p{/*parágrafo da segunda seção */
+    color: white;
+    margin-bottom: 20px;
+}
+
+.projetos{/*Div responsável por todos os projetos, o que formatar dentro de .projetos irá mexer com todas as divs*/
+    display: flex;
+    margin-top: 150px;
+}
+
+.texto-projetos{/*Div dos textos dos projetos*/
+    text-align: justify;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.projeto-img{/*Div da imagem dos projetos*/
+    margin-right: 70px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    right: 70px;
+}
+
+.projeto-img-motor{/*Div da imagem do motor*/
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 125px;
+    margin-right: 80px;
+}
+
+.projeto-img-semafaro{/*Div da imagem do semaforo*/
+    margin-right: 125px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    right: 40px;
+    margin-left: 90px;
+}
+
+.projeto-img-sensor{/*Div da imagem do sensor*/
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 220px;
+    margin-bottom: 220px;
+}

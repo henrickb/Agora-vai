@@ -1,0 +1,21 @@
+*{/*Seletor universal do site*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #10151C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.voltar {/*Class do input do cabeçario*/
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: #8F1443;
+    padding: 10px 30px 10px 30px;
+    font-weight: 900;
+}

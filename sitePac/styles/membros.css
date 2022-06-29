@@ -1,0 +1,137 @@
+* {/*Seletor universal do site*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {/*Tudo com seção na páagina será afetado quando ordenado*/
+    background-color: #10151C;
+    overflow-x: hidden;
+}
+
+.voltar{/*Class do input do cabeçario*/
+    position: relative;
+    margin-top: 30px;
+    margin-left: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: #8F1443;
+    padding: 10px 30px 10px 30px;
+    font-weight: 900;
+}
+.voltar:hover{/*Comando que faz o efeito do botão*/
+    transition:0.4s;
+    box-shadow:0 0 1em#fff;
+    background:#8F1443;    
+}
+.barra-lateral {/*Imagem da lateral da página*/
+    display: flex;
+    position: fixed;
+    height: 100%;
+    left: 1046px;
+}
+
+.title {/*Título da lista de integrantes*/
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    right: 145px;
+    font-size: 40px;
+    top: 100px;
+}
+
+.integrantes{/*Div do bloco de todos os integrantes*/
+    padding-bottom: 288px;
+}
+
+.integrante-kasten img {/*Imagem da div do integrante kasten*/
+    position: relative;
+    height: 200px;
+    top: 220px;
+    left: 140px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+.integrante-kasten h1 {/*Título da div do integrante kasten*/
+    position: relative;
+    top: 80px;
+    left: 450px;
+    font-size: 50px;
+    color: white;
+}
+
+.integrante-bessa img {/*Imagem da div do integrante bessa*/
+    position: relative;
+    height: 200px;
+    top: 220px;
+    left: 140px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+.integrante-bessa h1 {/*Título da div do integrante bessa*/
+    position: relative;
+    top: 80px;
+    left: 450px;
+    font-size: 50px;
+    color: white;
+}
+
+.integrante-ramos img {/*Imagem da div do integrante ramos*/
+    position: relative;
+    height: 200px;
+    top: 220px;
+    left: 140px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+.integrante-ramos h1 {/*Título da div do integrante ramos*/
+    position: relative;
+    top: 80px;
+    left: 450px;
+    font-size: 50px;
+    color: white;
+}
+
+.integrante-gabi img {/*Imagem da div do integrante gabi*/
+    position: relative;
+    height: 200px;
+    top: 220px;
+    left: 140px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+.integrante-gabi h1 {/*Título da div do integrante gabi*/
+    position: relative;
+    top: 80px;
+    left: 450px;
+    font-size: 50px;
+    color: white;
+}
+
+.integrante-isa img {/*Imagem da div do integrante isa*/
+    position: relative;
+    height: 200px;
+    top: 220px;
+    left: 140px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+.integrante-isa h1 {/*Título da div do integrante isa*/
+    position: relative;
+    top: 80px;
+    left: 450px;
+    font-size: 50px;
+    color: white;
+}

@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo-nav{
+    width: 32px;
+}
+
+.toogle-icon{
+    height: 25px;
+}
+
+nav a{
+    font-weight: 475 !important;
+    text-transform: uppercase;
+    color: #FFE428 !important;
+}
+
+.thumb-container{
+    overflow: hidden;
+    max-height: 650px;
+}

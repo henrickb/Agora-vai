@@ -1,0 +1,162 @@
+* { /*Seletor universal do site*/
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav { /*Todas as nav serão afetadas com este comando*/
+    position: absolute;
+}
+
+.nav-itens {/*A class da primeira nav*/
+    display: flex;
+    left: 1020px;
+    position: relative;
+    top: 25px;
+}
+
+.nav-itens input {/*Este comando estar afetando o input que tem dentro da na-itens*/
+    margin-top: 10px;
+    margin-right: 15px;
+    border: none;
+    background-color: #FFE428;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #8F1443;
+    font-size: 15px;
+}
+
+nav ul {/*Todas as Listas desordenadas dentro do bloco nav será afetado*/
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+nav ul li {/*Tudo que faz parte da Lista dentro da nav será afetado*/
+    margin-right: 35px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav ul li a {/*O link que estiver dentro da Lista que se encontra na nav será afetado*/
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15x;
+    color: #FFE428;
+}
+
+.sec-video {/*Bloco da seção responsável pelo vídeo*/
+    background-color: #10151C;
+    position: relative;
+    bottom: 7px;
+}
+
+.ourobouros_logo_title {/*Imagem de logo da página principal*/
+    position: absolute;
+    bottom: 60%;
+    width: 850px;
+    left: 5%;
+}
+
+.catolica_logo_title {/*Imagem da Católica da página inicial*/
+    position: absolute;
+    bottom: 40%;
+    width: 515px;
+    left: 5%;
+}
+
+.background {/*Imagem de fundo da tela principal do site*/
+    position: inherit;
+    width: 100%;
+    height: 650px;
+}
+
+.youtube {/*Div responsável por segurar Titulo e Video do Pac*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: -7px;
+}
+
+.youtube h1 {/*Título do Vídeo do Pac*/
+    margin-top: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.youtube input {/*Botão dentro do bloco do pac*/
+    position: relative;
+    bottom: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FFE428;
+    padding: 12px 30px 12px 30px;
+    color: #8F1443;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+footer {/*Rodapé da página principal*/
+    display: flex;
+    position: relative;
+    background-color: #B0255A;
+}
+
+.cont1 {/*Div com div esticada*/
+    background-color: #8F1443;
+    width: 33%;
+}
+
+.cont2 {/*Div com imagens relacionadas ao projeto*/
+    background-color: #B0255A;
+    width: 35%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.cont2 img {/*Imagem dentro do bloco com o nome de class:cont2*/
+    height: 70px;
+    position: relative;
+    left: 33%;
+}
+
+.logos img {/*Div com imagens do projeto*/
+    position: relative;
+    left: 28%;
+    height: 90px;
+}
+
+.cont3 {/*Div com div esticada*/
+    background-color: #8F1443;
+    width: 33%;
+}
+
+.barra-esquerda{/*Div esticada*/
+    border: white solid 3px;
+    border-radius: 3px;
+    transform: rotate(90deg);
+    width: 30%;
+    position: relative;
+    top: 105px;
+    right: 21px;
+}
+
+.barra-direita{/*Div esticada*/
+    border: white solid 3px;
+    border-radius: 3px;
+    width: 30%;
+    position: relative;
+    top: 101px;
+    left: 320px;
+    transform: rotate(90deg);
+}
